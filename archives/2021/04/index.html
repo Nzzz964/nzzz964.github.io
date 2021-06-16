@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="Cartoonmad爬虫 [ Hi, Nzzz964 ✨ ] "><meta name="theme-color" content="#9be3de"><title>Cartoonmad爬虫 [ Hi, Nzzz964 ✨ ] </title><style>@font-face {
+<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="Archive: 4/2021: 2021 [ Hi, Nzzz964 ✨ ] "><meta name="theme-color" content="#9be3de"><title>Archive: 4/2021: 2021 [ Hi, Nzzz964 ✨ ] </title><style>@font-face {
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
@@ -15,41 +15,4 @@
 </style><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css"><script src="https://cdn.bootcss.com/highlight.js/9.6.0/highlight.min.js" defer></script><script src="/js/paper.js" defer></script><script src="https://www.googletagmanager.com/gtag/js?id=xx-xxxxxxx-xx" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'xx-xxxxxxx-xx');</script><script src="https://www.unpkg.com/valine/dist/Valine.min.js" defer></script><script>window.addEventListener('DOMContentLoaded', () => {
-  new Valine({
-    el: '#comments',
-    appId: 'KdnI1H1DSimdaEKebRttanEp-MdYXbMMI',
-    appKey: 'p7zlmwfvEbzVEKjyn3TRhMO8',
-    notify: false,
-    verify: false,
-    avatar: 'mp',
-    placeholder: 'say something',
-  })
-})</script><link rel="stylesheet" href="/css/tocbot.css"><script src="/js/tocbot.js" defer></script><script>window.addEventListener('DOMContentLoaded', () => {
-  tocbot.init({
-    // Where to render the table of contents.
-    tocSelector: '.toc__content',
-    // Where to grab the headings to build the table of contents.
-    contentSelector: '.article__content',
-    // Which headings to grab inside of the contentSelector element.
-    headingSelector: 'h1, h2, h3, h4, h5, h6',
-    // For headings inside relative or absolute positioned containers within content.
-    hasInnerContainers: true,
-    orderedList: false,
-    collapseDepth: 2,
-  });
-})</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"><meta name="generator" content="Hexo 5.4.0"></head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">Hi, Nzzz964 ✨</a></h1><p>Je pense, donc je suis</p></div></div><div class="paper-container"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">Cartoonmad爬虫</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><article class="post-view__article"><div class="article__infomation"><div class="posts-item"><h2 class="posts-item__title"><a href="">Cartoonmad爬虫</a></h2><span class="post__date">2021-06-16</span><a href="/tags/golang/"><span class="post__tags">#golang</span></a><a href="/tags/crawler/"><span class="post__tags">#crawler</span></a></div></div><div class="article__content"><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote>
-<p>基于<strong>Colly</strong>框架的小玩具</p>
-</blockquote>
-<p>链接: <a target="_blank" rel="noopener" href="http://go-colly.org/">Colly 官网</a></p>
-<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>初学<strong>Golang</strong>，为了熟悉语法与开发流程</p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p><a target="_blank" rel="noopener" href="https://cartoonmad.com/">动画狂官网</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ ./cartoonmad-amd64_linux -h<br><br>Usage of ./cartoonmad-amd64_linux:<br>  -p string<br>    	代理 如: socks5://127.0.0.1:1089<br>  -r string<br>    	Require 目标章节 如: 1-20<br>  -t int<br>    	线程数量 默认:8 (default 8)<br>  -u string<br>    	Require cartoonmad 目标URL<br></code></pre></td></tr></table></figure>
-
-<p>代理支持 <code>http</code> <code>socks</code> 等</p>
-<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ ./cartoonmad-amd64_linux -u https://www.cartoonmad.com/comic/1221.html -r 1-3 -t 16<br><br>[<span class="hljs-comment">########                                          ] 17%        22/127</span><br>[<span class="hljs-comment">##################################################]100%       127/127</span><br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p>PS: 下载目录在当前工作目录 <code>downloads</code> 文件夹下  </p>
-</blockquote>
-</div></article><div class="post-view__sidebar"><div class="sidebar"><div class="tocbot"><h2>Toc</h2><div class="toc__content"></div></div><h2>Links</h2><div class="sidebar__link"><ul><li><a target="_blank" rel="noopener" href="https://github.com/Nzzz964">Github</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/crawler/" rel="tag">crawler</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/golang/" rel="tag">golang</a></li></ul></div></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="pre-next"><a class="pre-button">没有更多</a><a class="next-button" href="/2021/04/11/hello-world/">Hello World</a></div><div id="comments"></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a target="_blank" rel="noopener" href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a target="_blank" rel="noopener" href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>
+gtag('config', 'xx-xxxxxxx-xx');</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"><meta name="generator" content="Hexo 5.4.0"></head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">Hi, Nzzz964 ✨</a></h1><p>Je pense, donc je suis</p></div></div><div class="paper-container"><div class="archive-view"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">Archive: 2021: 4/2021</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><div class="posts"><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/11/hello-world/">Hello World</a></h2><span class="post__date">2021-04-12</span></div></div><div class="sidebar"><h2>Links</h2><div class="sidebar__link"><ul><li><a target="_blank" rel="noopener" href="https://github.com/Nzzz964">Github</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/crawler/" rel="tag">crawler</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/golang/" rel="tag">golang</a></li></ul></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="paginator"><span class="page-number current">1</span></div></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a target="_blank" rel="noopener" href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a target="_blank" rel="noopener" href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>
