@@ -1,5 +1,5 @@
 ---
-title: Cartoonmad爬虫
+title: cartoonmad爬虫
 date: 2021-06-16 10:51:06
 tags:
     - golang
@@ -11,6 +11,8 @@ photos:
 ## 介绍
 
 > 基于**Colly**框架的小玩具
+
+**Github源码**: [cartoonmad-go](https://github.com/Nzzz964/cartoonmad-go)
 
 链接: [Colly 官网](http://go-colly.org/)
 
