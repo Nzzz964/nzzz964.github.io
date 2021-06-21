@@ -5,7 +5,7 @@ tags:
     - golang
     - crawler
 photos:
-    - ./images/20210616-project-cartoonmad-go.png
+    - /images/20210616-project-cartoonmad-go.png
 ---
 
 ## 介绍

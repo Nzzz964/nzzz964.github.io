@@ -37,7 +37,7 @@ social:
 # tags: false
 
 # theme color
-main_color: sky # forest | grass | sky | sun | sea
+main_color: forest # forest | grass | sky | sun | sea
 
 # google Analytics
 google_analytics_id: xx-xxxxxxx-xx
