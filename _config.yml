@@ -1,6 +1,6 @@
-title: "Hi, Nzzz964 ✨"
+title: "Nzzz964"
 subtitle: ""
-description: "Je pense, donc je suis"
+description: ""
 keywords: null
 author: Nzzz964
 language: zh
@@ -58,6 +58,6 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: paper
+theme: cafe
 deploy:
   type: ""

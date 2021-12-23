@@ -1,26 +1,25 @@
 ---
-title: cartoonmad爬虫
+title: 动漫狂爬虫
 date: 2021-06-16 10:51:06
 tags:
     - golang
     - crawler
 photos:
-    - /images/20210616-project-cartoonmad-go.png
 ---
 
-## 介绍
+## Intro
 
-> 基于**Colly**框架的小玩具
+> 基于 `Colly` 框架的小玩具，练手用 ( 没对多线程进行任何处理 🤧
 
-**Github源码**: [cartoonmad-go](https://github.com/Nzzz964/cartoonmad-go)
+### Source Code
 
-链接: [Colly 官网](http://go-colly.org/)
+[cartoonmad-go](https://github.com/Nzzz964/cartoonmad-go)
 
-## 背景
+## Why
 
-初学**Golang**，为了熟悉语法与开发流程
+初学 `Golang` 为了熟悉语法与开发流程
 
-## 使用
+## Usage
 
 [动画狂官网](https://cartoonmad.com/)
 
