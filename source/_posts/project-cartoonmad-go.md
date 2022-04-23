@@ -2,24 +2,20 @@
 title: 动漫狂爬虫
 date: 2021-06-16 10:51:06
 tags:
-    - golang
-    - crawler
+    - Golang
+    - 爬虫
 photos:
 ---
 
-## Intro
+# 介绍
 
 > 基于 `Colly` 框架的小玩具，练手用 ( 没对多线程进行任何处理 🤧
 
-### Source Code
+## 源码
 
 [cartoonmad-go](https://github.com/Nzzz964/cartoonmad-go)
 
-## Why
-
-初学 `Golang` 为了熟悉语法与开发流程
-
-## Usage
+# 使用
 
 [动画狂官网](https://cartoonmad.com/)
 
@@ -39,7 +35,7 @@ Usage of ./cartoonmad-amd64_linux:
 
 代理支持 `http` `socks` 等
 
-## Example
+# 示例
 
 ```bash
 $ ./cartoonmad-amd64_linux -u https://www.cartoonmad.com/comic/1221.html -r 1-3 -t 16
@@ -49,3 +45,7 @@ $ ./cartoonmad-amd64_linux -u https://www.cartoonmad.com/comic/1221.html -r 1-3 
 ```
 
 > PS: 下载目录在当前工作目录 `downloads` 文件夹下  
+
+# 更新
+
+项目已经没办法使用了，待修复
